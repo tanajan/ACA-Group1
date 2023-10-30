@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.debug.ui.active_filters=com.sun.*,groovy.lang.*,groovyjarjarasm.*,java.*,jdk.internal.*,org.apache.groovy.*,org.codehaus.groovy.*,org.eclipse.jdt.launching.internal.*,sun.*
+org.eclipse.jdt.debug.ui.detail_formatters=groovy.lang.Reference,get(),1
+org.eclipse.jdt.debug.ui.inactive_filters=com.ibm.*,javax.*,jdk.*,jrockit.*,org.omg.*,sunw.*
