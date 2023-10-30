@@ -1,0 +1,27 @@
+plugins {
+	id 'groovy'
+	id 'eclipse'
+}
+
+sourceCompatibility = 17
+
+eclipse {
+	project {
+		name 'week14_project'
+		buildCommand 'org.eclipse.jdt.core.javabuilder'
+		buildCommand 'org.eclipse.buildship.core.gradleprojectbuilder'
+		natures 'org.eclipse.jdt.core.javanature',
+			'org.eclipse.jdt.groovy.core.groovyNature',
+			'org.eclipse.buildship.core.gradleprojectnature'
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compileOnly 'org.apache.groovy:groovy-all:4.0.6'
+	compileOnly 'org.mongodb:mongodb-driver-sync:4.1.0'
+}
+
